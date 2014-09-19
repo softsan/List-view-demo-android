@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ff1969b3"
+    android:padding="5dp">
+    <TextView
+        android:text="heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:id="@+id/Heading" />
+    <LinearLayout
+        android:layout_width="311.8dp"
+        android:layout_height="141.8dp"
+        android:layout_marginBottom="0.0dp"
+        android:minWidth="25px"
+        android:minHeight="25px">
+        <VideoView
+            android:id="@+id/SampleVideoView"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_marginRight="0.0dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:id="@+id/linearLayout1"
+        android:layout_toRightOf="@id/SampleVideoView"
+        android:minWidth="25px"
+        android:minHeight="25px" />
+    <TextView
+        android:text="sub heading"
+        android:id="@+id/SubHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white" />
+</LinearLayout>
